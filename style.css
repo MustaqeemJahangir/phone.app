@@ -1,0 +1,240 @@
+*{
+    padding:0%;
+    margin: 0%;
+    /* background-color: black; */
+
+}
+body{
+background-color: black;
+}
+.btn{
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.head{
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.op{
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    
+}
+.increase{
+    padding: 2px 6px;
+    background-color:gold;
+    color:black; 
+    border: 1px solid gold;
+}
+.decrease{
+
+    padding: 2px 6px;
+    background-color:gold;
+    color:black;
+    border: 1px solid gold;
+
+}
+#game{
+    position: relative;
+    left:-60px ;
+    padding: 4px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: gold;
+    border: 1px solid gold;
+}
+.card{
+    /* border: 2px solid gold; */
+    background-color:black  ;
+    width: 350px;
+    height: 430px;
+
+    border: 2px solid gold;
+    border-radius:10px ;
+    padding:10px 10px 10px 10px  ;
+    text-transform: capitalize;
+    /* font-size:12px ; */
+}
+.set{
+    padding-bottom:30px ;
+    position: relative;
+    left: 70px;
+    /* text-align: center; */
+    margin: 0 auto;
+    filter: drop-shadow(20px 20px 20px gold);
+  
+    width: 200px;
+    height:200px;
+}
+
+h1{
+    padding-left: 10px;
+    color: gold;
+    padding-top: 10px;
+    padding-bottom: 2px ;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.pro{
+    padding: 2px ;
+    margin: 3px;
+}
+
+
+.check{
+    padding: 5px 0px;
+
+    
+    text-align: center;
+
+}
+.add{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 6px;
+    margin-left: 10px;
+    padding: 5px 5px;
+    background-color: gold;
+    border: 1px solid gold;
+    border-radius:5px ;
+}
+.but1{
+    color: black;
+    background-color: gold;
+    border: 2px solid gold;
+    font-weight: bold;
+    text-transform: capitalize;
+
+    padding: 5px;
+    font-size: 18px;
+}
+.white{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 6px;
+    margin-left: 10px;
+    padding: 5px 5px;
+    background-color: gold;
+    border: 1px solid gold;
+    border-radius:5px ;
+    position: relative;
+    top: -35px;
+    left: 276px;
+}
+#name{
+    /* display: ; */
+    color: white;
+}
+
+
+@media only screen and(max-width:430px){
+    .btn{
+        margin: 10px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    
+    }
+    .head{
+        margin: 10px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    
+    }
+    .op{
+        margin: 10px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    
+        
+    }
+    .card{
+        /* border: 2px solid gold; */
+        background-color:black  ;
+        width: 350px;
+        height: 400px;
+    
+        border: 2px solid gold;
+        border-radius:10px ;
+        padding:10px 10px 10px 10px  ;
+        text-transform: capitalize;
+        /* font-size:12px ; */
+    }
+    .set{
+        padding-bottom:30px ;
+        position: relative;
+        left: 90px;
+        /* text-align: center; */
+        margin: 0 auto;
+        filter: drop-shadow(20px 20px 20px gold);
+      
+        width: 200px;
+        height:200px;
+    }
+    
+    h1{
+        padding-left: 10px;
+        color: gold;
+        padding-top: 10px;
+        padding-bottom: 2px ;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    
+    }
+    
+    .pro{
+        padding: 2px ;
+        margin: 3px;
+    }
+    
+    
+    .check{
+        padding: 5px 0px;
+    
+        
+        text-align: center;
+    
+    }
+    .add{
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-top: 6px;
+        margin-left: 10px;
+        padding: 5px 5px;
+        background-color: gold;
+        border: 1px solid gold;
+        border-radius:5px ;
+    }
+    .but1{
+        padding: 5px;
+        font-size: 18px;
+    }
+}
